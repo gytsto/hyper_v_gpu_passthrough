@@ -15,6 +15,10 @@ And once that is done, you can restart the VM.
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+ir this
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
 
 # reference
 https://www.reddit.com/r/sysadmin/comments/jym8xz/gpu_partitioning_is_finally_possible_in_hyperv/

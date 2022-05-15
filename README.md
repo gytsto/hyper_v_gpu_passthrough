@@ -15,7 +15,7 @@ And once that is done, you can restart the VM.
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-ir this
+or this
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
